@@ -7,38 +7,37 @@
     <link rel="stylesheet" href="Electronics.css">
 </head>
 <body>
-    
-    <header>
-        <h1>TECHZONE GAMING STORE</h1>
-        
-        <div class="menu">
-            <a hef="'#">Home</a>
-            <a href="#">Products</a>
-            <a href="#">About Us</a>
-            <a href="#">Contact Us</a>
-        </div>
-    </header>
+<header>
+    <h1>TECHZONE GAMING STORE</h1>
 
-    <section class="hero">
-        <h2>Build your Drean Gaming PC</h2>
-        <p>Premium GPUs, CPUs, Monitors and Accessories</p>
-        <button>Shop Now</button>
-    </section>
+    <div class="menu">
+        <a href="#">Home</a>
+        <a href="#products">Products</a>
+        <a href="#about">About Us</a>
+        <a href="#contact">Contact Us</a>
+    </div>
+</header>
 
-    <h2 class="products-title" id="products">Featured Gaming Products</h2>
+<section class="hero">
+    <h2>Build Your Dream Gaming PC</h2>
+    <p>Premium GPUs, CPUs, Monitors and Accessories</p>
+    <button>Shop Now</button>
+</section>
 
-    <section class="products">
+<h2 class="products-title" id="products">Featured Gaming Products</h2>
+
+<section class="products">
 
     <div class="card">
-        <img src="rtx4090.jpg" alt="RTX 4090">
+        <img src="images/rtx4090.jpg" alt="NVIDIA RTX 4090 Graphics Card">
         <h3>NVIDIA RTX 4090</h3>
-        <p>Ultimate 4k Gaming Graphics card.</p>
+        <p>Ultimate 4K gaming graphics card.</p>
         <p class="price">₹1,54,999</p>
         <button class="buy-btn">Buy Now</button>
     </div>
 
     <div class="card">
-        <img src="intel-i9.jpg" alt="Intel i9">
+        <img src="images/intel-i9.jpg" alt="Intel Core i9 Processor">
         <h3>Intel Core i9</h3>
         <p>13th Gen high-performance processor.</p>
         <p class="price">₹54,999</p>
@@ -46,7 +45,7 @@
     </div>
 
     <div class="card">
-        <img src="keyboard.jpg" alt="Keyboard">
+        <img src="images/keyboard.jpg" alt="Gaming Keyboard">
         <h3>Gaming Keyboard</h3>
         <p>RGB mechanical keyboard.</p>
         <p class="price">₹4,999</p>
@@ -54,23 +53,23 @@
     </div>
 
     <div class="card">
-        <img src="mouse.jpg" alt="Mouse">
+        <img src="images/mouse.jpg" alt="Gaming Mouse">
         <h3>Gaming Mouse</h3>
         <p>Ultra-fast wireless response.</p>
         <p class="price">₹2,999</p>
         <button class="buy-btn">Buy Now</button>
     </div>
 
-     <div class="card">
-        <img src="monitor.jpg" alt="Monitor">
+    <div class="card">
+        <img src="images/monitor.jpg" alt="4K Gaming Monitor">
         <h3>4K Gaming Monitor</h3>
         <p>144Hz refresh rate display.</p>
         <p class="price">₹34,999</p>
         <button class="buy-btn">Buy Now</button>
     </div>
 
-     <div class="card">
-        <img src="headset.jpg" alt="Headset">
+    <div class="card">
+        <img src="images/headset.jpg" alt="Gaming Headset">
         <h3>Gaming Headset</h3>
         <p>7.1 surround sound experience.</p>
         <p class="price">₹6,499</p>
@@ -78,7 +77,7 @@
     </div>
 
     <div class="card">
-        <img src="ram.jpg" alt="RAM">
+        <img src="images/ram.jpg" alt="DDR5 RAM 32GB">
         <h3>DDR5 RAM 32GB</h3>
         <p>32GB high-speed memory.</p>
         <p class="price">₹12,999</p>
@@ -86,56 +85,53 @@
     </div>
 
     <div class="card">
-        <img src="ssd.jpg" alt="SSD">
+        <img src="images/ssd.jpg" alt="NVMe SSD 1TB">
         <h3>NVMe SSD 1TB</h3>
         <p>Lightning-fast storage solution.</p>
         <p class="price">₹8,999</p>
         <button class="buy-btn">Buy Now</button>
     </div>
 
-    </section>
+</section>
 
-     <!-- Offer -->
-    <section class="offer">
-        <h2>🔥 Mega Gaming Sale 🔥</h2>
-        <p>Get up to 35% OFF on selected gaming accessories.</p>
-    </section>
+<!-- Offer -->
+<section class="offer">
+    <h2>🔥 Mega Gaming Sale 🔥</h2>
+    <p>Get up to 35% OFF on selected gaming accessories.</p>
+</section>
 
-    <!-- About -->
-    <section class="about" id="about">
-        <h2>About Us</h2>
+<!-- About -->
+<section class="about" id="about">
+    <h2>About Us</h2>
 
-        <p>
-            TechZone Gaming Store is your one-stop destination for
-            gaming PCs, graphics cards, processors, monitors,
-            keyboards, mice, storage devices, and premium gaming
-            accessories.
-        </p>
-    </section>
+    <p>
+        TechZone Gaming Store is your one-stop destination for gaming PCs,
+        graphics cards, processors, monitors, keyboards, mice,
+        storage devices, and premium gaming accessories.
+    </p>
+</section>
 
-    <!-- Contact -->
-    <section class="contact" id="contact">
+<!-- Contact -->
+<section class="contact" id="contact">
 
-        <h2>Contact Us</h2>
+    <h2>Contact Us</h2>
 
-        <p>Email: support@techzonegaming.com</p>
-        <p>Phone: +91 98765 43210</p>
-        <p>Address: Bangalore, Karnataka, India</p>
+    <p>Email: support@techzonegaming.com</p>
+    <p>Phone: +91 98765 43210</p>
+    <p>Address: Bangalore, Karnataka, India</p>
 
-        <form>
-            <input type="text" placeholder="Enter Your Name">
-            <input type="email" placeholder="Enter Your Email">
-            <textarea placeholder="Enter Your Message"></textarea>
-            <button type="submit">Send Message</button>
-        </form>
+    <form>
+        <input type="text" placeholder="Enter Your Name" required>
+        <input type="email" placeholder="Enter Your Email" required>
+        <textarea placeholder="Enter Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+    </form>
 
-    </section>
+</section>
 
-    <!-- Footer -->
-    <footer>
-        <p>© 2026 TechZone Gaming Store | All Rights Reserved</p>
-    </footer>
-
-
+<!-- Footer -->
+<footer>
+    <p>&copy; 2026 TechZone Gaming Store | All Rights Reserved</p>
+</footer>
 </body>
 </html>
